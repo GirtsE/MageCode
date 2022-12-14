@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&family=Roboto&display=swap');
+
+#mainNavBar{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    justify-content: space-between;
+}
+#mainNavBar #logo{
+    display: flex;
+    align-content: flex-start;
+    align-items: center;
+    padding-left: 2vw;
+
+}
+#mainNavBar #mainNavBarLinks{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 2vw;
+}
+#mainNavBar #mainNavBarLinks .link{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 24px;
+    padding: 1vw;
+
+}
+#mainNavBar #mainNavBarLinks .SignupLink{
+    background-color: #c4c4f8;
+    border-radius: 45px;
+    padding: 15px 30px 15px ;
+}
