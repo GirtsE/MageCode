@@ -1,0 +1,53 @@
+main #Indexcontainer{
+    margin: 3vw 2vw 0;
+    display: flex;
+    
+}
+main #Indexcontainer img{
+    width: 55vw;
+    object-fit: cover;
+}
+main #Indexcontainer #MainText{
+    width: 45vw;
+}
+main #Indexcontainer #MainText h2{
+    font-size: 100px;
+    font-weight: 700;
+    margin: 2vh 0;
+    letter-spacing: 5px;
+
+    font-family: 'Roboto';
+    color: #123b4e;
+
+}
+main #Indexcontainer #MainText h3{
+    font-size: 50px;
+    margin: 2vh 0;
+    font-weight: 300;
+    letter-spacing: 10px;
+
+    font-family: 'Roboto';
+    color: #fca100;
+}
+main #Indexcontainer #MainText p{
+    font-size: 23px;
+    letter-spacing: 1px;
+    line-height: 40px;
+
+    margin: 2vh 0;
+    color: #949494;
+}
+
+main #Indexcontainer #MainText a{
+    display: inline-block;
+    background-color: #c4c4f8;
+    text-decoration: none;
+    font-family: 'Roboto';
+    color: #ffffff;
+    font-size: 24px;
+    margin-top: 10vh;
+
+
+    border-radius: 45px;
+    padding: 15px 30px 15px ;
+}

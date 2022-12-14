@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/Global.css">
     <link rel="stylesheet" href="css/MainTemplateStyle.css">
+    <link rel="stylesheet" href="css/indexStyle.css">
     <title>Document</title>
 </head>
 <body>
@@ -20,6 +21,9 @@
             <a href="{{ url('/') }}" class="link">Contact</a>
             <a href="{{ url('/') }}" class="link">FAQ</a>
             <a href="{{ url('SignUp') }}" class="link SignupLink">SIGN UP</a>
+            <div id="Menu">
+                
+            </div>
         </div>
     </nav>
 
