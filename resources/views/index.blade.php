@@ -11,7 +11,7 @@
                 Repellendus ducimus quidem accusamus obcaecati dolores autem. 
                 Magni distinctio officiis veniam nesciunt porro eaque expedita. Architecto.
             </p>
-            <a href="/">LEARN MORE</a>
+            <a href="/something">LEARN MORE</a>
         </div>
         <img src="storage/Images/illustration.jpg" alt="IMG">
     </div>

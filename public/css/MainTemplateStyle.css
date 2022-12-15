@@ -32,7 +32,6 @@
 #mainNavBar #mainNavBarLinks .SignupLink{
     background-color: #c4c4f8;
     border-radius: 45px;
-    padding: 15px 30px 15px ;
 }
 @media only screen and (min-width: 1430px) {
     #mainNavBar #mainNavBarLinks #MenuIcon{

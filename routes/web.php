@@ -20,5 +20,8 @@ Route::get('/', function () {
 Route::get('/SignUp', function () {
     return view('signup');
 });
+Route::get('/something', function () {
+    return view('something');
+});
 
 Route::post('/SignUp', 'App\Http\Controllers\UserController@store');
