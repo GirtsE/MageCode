@@ -18,7 +18,7 @@
         <div id="mainNavBarLinks">
             <div id="LinkContainer">
                 <a href="{{ url('/') }}" class="link">Home</a>
-                <a href="{{ url('/') }}" class="link">Seevices</a>
+                <a href="{{ url('/') }}" class="link">Services</a>
                 <a href="{{ url('/') }}" class="link">About</a>
                 <a href="{{ url('/') }}" class="link">Contact</a>
                 <a href="{{ url('/') }}" class="link">FAQ</a>
