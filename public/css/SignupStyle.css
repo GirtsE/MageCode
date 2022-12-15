@@ -1,0 +1,16 @@
+#FormWrapper{
+    display: flex;
+    background-color: red;
+    width: 80%;
+    height: 80vh;
+    margin: auto;
+}
+#FormWrapper form{
+    text-align: center;
+    background-color:aqua;
+    margin: auto;
+}
+#FormWrapper form input{
+    display: block;
+    justify-content: center;
+}

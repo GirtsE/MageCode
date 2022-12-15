@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/Global.css">
     <link rel="stylesheet" href="css/MainTemplateStyle.css">
     <link rel="stylesheet" href="css/indexStyle.css">
+    <link rel="stylesheet" href="css/SignupStyle.css">
     <title>Document</title>
 </head>
 <body>

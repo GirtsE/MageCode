@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+
+Route::get('/SignUp', function () {
+    return view('signup');
+});
+
+Route::post('/SignUp', 'App\Http\Controllers\UserController@store');
