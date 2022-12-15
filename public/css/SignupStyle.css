@@ -1,16 +1,47 @@
 #FormWrapper{
     display: flex;
-    background-color: red;
+    position: relative;
     width: 80%;
     height: 80vh;
     margin: auto;
 }
 #FormWrapper form{
     text-align: center;
-    background-color:aqua;
     margin: auto;
 }
 #FormWrapper form input{
     display: block;
-    justify-content: center;
+    margin: 50px auto;
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    border-radius: 45px;
+    background-color: #c4c4f8;
+    border:0;
+
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 24px;
+}
+#FormWrapper form input:focus{
+    outline: none;
+}
+#FormWrapper form input[type="submit"]{
+    display:block;
+    margin: auto;
+    width: 200px;
+    cursor: pointer;
+
+    background-color:#fca100;
+}
+#FormWrapper form input[type="submit"]:hover{
+    background-color:#ffbd4a;
+}
+#FormWrapper #AlertWrapper{
+    display: block;
+    position: absolute;
+    right: 50%;
+    transform: translate(50%);
+    font-size: 25px;
+    
 }

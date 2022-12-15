@@ -14,6 +14,6 @@ class UserController extends Controller
         $user->email = $request->email;
         $user->save();
 
-        return redirect('/')->with('mssg' , 'User added to Database');
+        return redirect('/SignUp')->with('success', 'User Saved in Database');
     }
 }
