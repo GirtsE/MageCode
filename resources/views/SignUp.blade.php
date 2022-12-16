@@ -4,7 +4,13 @@
 
     <div id="FormWrapper">
         <div id="AlertWrapper">
-            <p>{{ session('success') }}</p> 
+            @foreach ($errors->all() as $error)
+                <h3>{{ $error }}</h3>
+            @endforeach
+
+            @if(session('success'))
+                    <h3>{{ session('success') }}</h3>
+            @endif
         </div>
         <form action="/SignUp" method="POST">
             @csrf
