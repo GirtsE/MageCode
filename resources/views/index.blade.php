@@ -13,7 +13,7 @@
             </p>
             <a href="/something">LEARN MORE</a>
         </div>
-        <img src="storage/Images/illustration.jpg" alt="IMG">
+        <img src="Images/illustration.jpg" alt="IMG">
     </div>
 
 @stop

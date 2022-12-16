@@ -25,7 +25,7 @@
                 <a href="{{ url('SignUp') }}" class="link SignupLink">SIGN UP</a>
             </div>
             <div id="MenuIcon" onclick="menu()">
-                <img src="storage/Images/menuicon.svg" alt="menu">
+                <img src="Images/menuicon.svg" alt="menu">
             </div>
         </div>
     </nav>
