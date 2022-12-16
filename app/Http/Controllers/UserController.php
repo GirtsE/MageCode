@@ -22,12 +22,10 @@ class UserController extends Controller
                         ->withErrors($validator)
                         ->withInput();
         }
-        else {
-            $user->name = $request->name;
-            $user->email = $request->email;
-            $user->save();
-            return redirect('/SignUp')->with('success','User succesfully added to database');
-        }
+        $user->name = $request->name;
+        $user->email = $request->email;
+        $user->save();
+        return redirect('/SignUp')->with('success','User succesfully added to database');
         
     }
 }
